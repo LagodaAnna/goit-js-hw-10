@@ -3,6 +3,7 @@ import countryInfoTpl from '../src/templates/countryInfo.hbs';
 import './css/styles.css';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { fetchCountries } from './fetchCountries';
+
 const debounce = require('lodash.debounce');
 const DEBOUNCE_DELAY = 300;
 
